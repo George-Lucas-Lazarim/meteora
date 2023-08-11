@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,8 @@
     --amarelo: #daff01;
     --roxo   : #9353ff;
     --branco : #ffffff;
+
+    --font   : 'Inter', sans-serif;
 }
 
 * {
@@ -44,23 +48,33 @@ body {
 .cabecalho__nave__nav__link {
     text-decoration: none;
     color: var(--branco);
+    font-family: var(--font);
 }
 
 .cabecalho__navd {
+    margin: 9.5px 23px 11.5px 0px;
     display: flex;
+    align-items: center;
 }
 
 .cabecalho__navd__texto {
     color: var(--cinza);
+    font-family: var(--font);
     font-size: 15px;
 }
 
 .cabecalho__navd__box {
+    border: none;
+    margin-right: 16px;
     height: 38px;
     width: 170px;
 }
 
 .cabecalho__navd__botao {
+    background-color: transparent;
+    color: var(--branco);
+    border: solid 1px var(--branco);
+    font-family: var(--font);
     height: 37px;
     width: 80px;
 }
