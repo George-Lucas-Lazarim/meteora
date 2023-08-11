@@ -22,6 +22,7 @@
 
 body {
     background-color: var(--branco);
+    font-family: var(--font);
 }
 
 .cebecalho {
@@ -48,7 +49,6 @@ body {
 .cabecalho__nave__nav__link {
     text-decoration: none;
     color: var(--branco);
-    font-family: var(--font);
 }
 
 .cabecalho__navd {
@@ -59,7 +59,6 @@ body {
 
 .cabecalho__navd__texto {
     color: var(--cinza);
-    font-family: var(--font);
     font-size: 15px;
 }
 
@@ -74,7 +73,10 @@ body {
     background-color: transparent;
     color: var(--branco);
     border: solid 1px var(--branco);
-    font-family: var(--font);
     height: 37px;
     width: 80px;
+}
+
+.conteudo__imagem {
+    width: 100vw;
 }
