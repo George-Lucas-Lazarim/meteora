@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --preto  : #000000;
     --cinza  : #cccccc;
@@ -41,12 +36,12 @@ body {
     height: 32px;
 }
 
-.cabecalho__nave__nav {
+.nave__nav {
     display: flex;
     gap: 40px;
 }
 
-.cabecalho__nave__nav__link {
+.nav__link {
     text-decoration: none;
     color: var(--branco);
 }
@@ -55,21 +50,34 @@ body {
     margin: 9.5px 23px 11.5px 0px;
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
-.cabecalho__navd__texto {
+.navd__input {
+    position: relative;
+}
+
+.input {
+    width: 170px;
+    height: 38px;
+    border: none;
+}
+
+.input-text {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    margin: 0px 0px 5.5px 15px;
     color: var(--cinza);
+    font-weight: 400;
     font-size: 15px;
 }
 
-.cabecalho__navd__box {
-    border: none;
-    margin-right: 16px;
-    height: 38px;
-    width: 170px;
+form .input-text .input:focus {
+    
 }
 
-.cabecalho__navd__botao {
+.navd__botao {
     background-color: transparent;
     color: var(--branco);
     border: solid 1px var(--branco);
