@@ -73,10 +73,6 @@ body {
     font-size: 15px;
 }
 
-form .input-text .input:focus {
-    
-}
-
 .navd__botao {
     background-color: transparent;
     color: var(--branco);
@@ -87,4 +83,21 @@ form .input-text .input:focus {
 
 .conteudo__imagem {
     width: 100vw;
+}
+
+.categoria__titulo {
+    display: block;
+}
+
+.conteudo__categoria {
+    display: flex;
+}
+
+.categoria__produto {
+    text-align: center;
+    background-color: var(--preto);
+}
+
+.categoria__texto {
+    padding: 8px 16px;
 }
