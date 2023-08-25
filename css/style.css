@@ -1,0 +1,29 @@
+:root {
+    --preto: #000000;
+    --cinza: #cccccc;
+    --braco: #ffffff;
+    --verde: #daff01;
+    --roxo : #9353ff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    width: 100vw;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--preto);
+    color: var(--braco);
+    height: 58px;
+}
+
+.navegacao__paginas {
+    display: flex;
+    gap: 40px;
+}

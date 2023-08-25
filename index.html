@@ -3,53 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css"> <!--RESET-->
+    <link rel="stylesheet" href="./css/style.css"> <!--STYLE-->
     <title>Meteora</title>
 </head>
 <body>
-    <header class="cebecalho">
-    <div class="cabecalho__nave">
-        <img class="nave__imagem" src="img/meteora.png" alt="meteora logo">
-        <nav class="nave__nav">
-            <a class="nav__link" href="#">Home</a>
-            <a class="nav__link" href="#">Nossas lojas</a>
-            <a class="nav__link" href="#">Novidades</a>
-            <a class="nav__link" href="#">Promoções</a>
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao"> <!--MENU DE NAVEGAÇÃO NO CANTO SUPERIOR ESQUERDO-->
+            <img class="navegacao__logo" src="img/meteora.png" alt="meteora logo">
+            <ul class="navegacao__paginas">
+                <li class="paginas__link">
+                    <a href="#">Home</a>
+                </li>
+                <li class="paginas__link">
+                    <a href="#">Nossas lojas</a>
+                </li>
+                <li class="paginas__link">
+                    <a href="#">Novidades</a>
+                </li>
+                <li class="paginas__link">
+                    <a href="#">Promoções</a>
+                </li>
+            </ul>
         </nav>
-    </div>
-    <div class="cabecalho__navd">
-        <div class="navd__input">
-            <input class="input" type="text" id="" name="pesquisar" autocomplete="off">
-            <label class="input-text" for="pesquisar">Digite o produto</label>
-        </div>
-        <button class="navd__botao">Buscar</button>
-    </div>
+        <img class="navegacao__banner" src="img/banner.png" alt="banner"> <!--BANNER ABAIXO DO MENU RÁPIDO DE NAVEGAÇÃO-->
     </header>
-    <main class="conteudo">
-        <img class="conteudo__imagem" src="img/banner.png" alt="banner">
-        <nav class="conteudo__categoria">
-            <h2 class="categoria__titulo">Busque por categoria:</h2>
-            <a class="categoria__produto" href="#">
-                <img src="img/categoria-camisetas.png" alt="categoria-camisa">
-                <p class="produto__texto">Camisetas</p>
-            </a>
-            <a class="categoria__produto" href="#">
-                <img src="img/categoria-bolsas.png" alt="categoria-bolsas">
-                <p class="produto__texto">Bolsas</p>
-            </a>
-            <a class="categoria__produto" href="#">
-                <img src="img/categoria-calca.png" alt="categoria-calca">
-                <p class="produto__texto">Calças</p>
-            </a>
-            <a class="categoria__produto" href="#">
-                <img src="img/categoria-casacos.png" alt="categoria-casacos">
-                <p class="produto__texto">Casacos</p>
-            </a>
-            <a class="categoria__produto" href="#">
-                <img src="img/categoria-oculos.png" alt="categoria-oculos">
-                <p class="produto__texto">Óculos</p>
-            </a>
+    <main class="container">
+        <nav class="caontainer__navegacao">
+            <h2 class="navegacao__titulo">Busque por categoria:</h2>
+            <ul class="navegacao__categoria">
+                <li class="categoria__link">
+                    <a href="#">
+                        <img src="img/categoria-camisetas.png" alt="categoria camisetas">
+                        <p>Camisetas</p>
+                    </a>
+                </li>
+                <li class="categoria__link">
+                    <a href="#">
+                        <img src="img/categoria-bolsas.png" alt="categoria bolsas">
+                        <p>Bolsas</p>
+                    </a>
+                </li>
+                <li class="categoria__link">
+                    <a href="#">
+                        <img src="img/categoria-calcados.png" alt="categoria calçados">
+                        <p>Calçados</p>
+                    </a>
+                </li>
+                <li class="categoria__link">
+                    <a href="#">
+                        <img src="img/categoria-calca.png" alt="categoria calças">
+                        <p>Calças</p>
+                    </a>
+                </li>
+                <li class="categoria__link">
+                    <a href="#">
+                        <img src="img/categoria-casacos.png" alt="categoria casacos">
+                        <p>Casacos</p>
+                    </a>
+                </li>
+                <li class="categoria__link">
+                    <a href="#">
+                        <img src="img/categoria-oculos.png" alt="categoria óculos">
+                        <p>Óculos</p>
+                    </a>
+                </li>
+            </ul>
         </nav>
     </main>
     <footer>
