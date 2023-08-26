@@ -1,13 +1,16 @@
 :root {
-    --preto: #000000;
-    --cinza: #cccccc;
-    --braco: #ffffff;
-    --verde: #daff01;
-    --roxo : #9353ff;
+    --preto      : #000000;
+    --cinza      : #cccccc;
+    --braco      : #ffffff;
+    --azul-escuro: #212529;
+    --verde      : #daff01;
+    --roxo       : #9353ff;
+
+    --fonte-padrao: 'Inter', sans-serif;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-padrao);
 }
 
 .cabecalho__navegacao {
@@ -27,6 +30,43 @@ body {
     gap: 40px;
 }
 
-.container__banner {
+.paginas__link {
+    transition: 1s;
+}
+
+.paginas__link:hover {
+    transition: 1s;
+    scale: 1.1;
+}
+
+.conteudo__banner {
     width: 100%;
+}
+
+.navegacao__titulo {
+    text-align: center;
+    margin: 72px 0px 32px 0px;
+    font: normal 500 32px var(--fonte-padrao); 
+}
+
+.navegacao__categoria {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.categoria__link {
+    background-color: var(--preto);
+    transition: 1s;
+}
+
+.categoria__link:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.link__texto {
+    padding: 8px 16px 10px 16px;
+    color: var(--braco);
 }
