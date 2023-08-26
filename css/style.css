@@ -13,6 +13,12 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+.cabecalho {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
 .cabecalho__navegacao {
     display: flex;
     align-items: center;
@@ -40,6 +46,7 @@ body {
 }
 
 .conteudo__banner {
+    margin-top: 58px;
     width: 100%;
 }
 
@@ -69,4 +76,42 @@ body {
 .link__texto {
     padding: 8px 16px 10px 16px;
     color: var(--braco);
+}
+
+.bombando__produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bombando__titulo {
+    text-align: center;
+    margin: 48px 0px 30px 0px;
+    font: normal 500 32px var(--fonte-padrao);
+}
+
+.produtos__produto {
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.produto__titulo {
+    margin: 13px 112px 13px 16px;
+    font: normal 700 16px var(--fonte-padrao);
+}
+
+.produto__texto {
+    font: normal 400 13px var(--fonte-padrao);
+    margin: 16px;
+}
+
+.preco {
+    margin-bottom: 19px;
+}
+
+.produto__botao {
+    color: var(--braco);
+    background-color: var(--roxo);
+    padding: 9px 16px;
+    margin: 16px;
 }
