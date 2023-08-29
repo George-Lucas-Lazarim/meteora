@@ -121,13 +121,36 @@ body {
     margin: 16px;
 }
 
-.conteudo__container {
+.conteudo__conheca {
     background-color: var(--preto);
     color: var(--braco);
     padding: 40px;
 }
 
-.container__titulo {
+.conheca__titulo {
     font: normal 500 32px var(--fonte-padrao);
     text-align: center;
+    margin-bottom: 44px;
+}
+
+.facilidade__titulo {
+    color: var(--verde);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.facilidade__texto {
+    font: normal 400 13px var(--fonte-padrao);
+    width: 182px;
+}
+
+.facilidades {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.conheca__facilidade {
+    display: flex;
+    gap: 24px;
 }
