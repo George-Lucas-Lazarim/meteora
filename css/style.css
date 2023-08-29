@@ -79,8 +79,7 @@ body {
 }
 
 .conteudo__bombando {
-    margin-bottom: 84px;
-    margin: 0px 265px;
+    margin: 0px 265px 84px 265px;
 }
 
 .bombando__produtos {
@@ -120,4 +119,15 @@ body {
     background-color: var(--roxo);
     padding: 9px 16px;
     margin: 16px;
+}
+
+.conteudo__container {
+    background-color: var(--preto);
+    color: var(--braco);
+    padding: 40px;
+}
+
+.container__titulo {
+    font: normal 500 32px var(--fonte-padrao);
+    text-align: center;
 }
