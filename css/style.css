@@ -78,10 +78,16 @@ body {
     color: var(--braco);
 }
 
+.conteudo__bombando {
+    margin-bottom: 84px;
+    margin: 0px 265px;
+}
+
 .bombando__produtos {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 }
 
 .bombando__titulo {
